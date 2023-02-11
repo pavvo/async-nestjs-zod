@@ -1,6 +1,6 @@
 {
   "name": "nestjs-zod",
-  "description": "All NestJS + Zod utilities you need",
+  "description": "All NestJS + Zod utilities you need (Async version)",
   "version": "0.0.0-set-by-ci",
   "main": "./dist/index.js",
   "exports": {
@@ -28,8 +28,8 @@
   ],
   "sideEffects": false,
   "license": "MIT",
-  "repository": "git@github.com:risenforces/nestjs-zod.git",
-  "author": "Evgeny Zakharov <to@risen.dev>",
+  "repository": "git@github.com:pavvo/async-nestjs-zod.git",
+  "author": "Pavle Vojinovic <vv.pavle@gmail.com>",
   "publishConfig": {
     "access": "public"
   },

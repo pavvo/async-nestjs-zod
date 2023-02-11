@@ -21,8 +21,8 @@ export function createZodDto<
     public static isZodDto = true
     public static schema = schema
 
-    public static create(input: unknown) {
-      return this.schema.parse(input)
+    public static async create(input: unknown) {
+      return await this.schema.safeParseAsync(input)
     }
   }
 
